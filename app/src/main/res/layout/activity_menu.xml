@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".MenuActivity">
+
+    <ImageView
+        android:id="@+id/puzzleImg"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/puzlogo" />
+
+    <EditText
+        android:id="@+id/editPlayer"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/puzzleImg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:hint="Player:"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/editPlayer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/btn_theme"
+        android:text="4x4 puzzle"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:id="@+id/btnPlay8"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/btnPlay"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/btn_theme"
+        android:text="3x3 puzzle"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:backgroundTint="@null" />
+    <Button
+        android:id="@+id/btnInfo"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        app:backgroundTint="@null"
+        android:background="@drawable/btn_theme"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnPlay8"
+        android:layout_marginTop="8dp"
+        android:text="Info"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+
+
+
+
+</RelativeLayout>

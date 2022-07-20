@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Puzzle15</string>
+    <string name="info">These instructions provide one method for solving the 15 Puzzle. The instructions provided here are meant to be a step by step process outlining one algorithm for solving the 15 Puzzle. These instructions are not meant to be an exhaustive explanation of how to move the tiles around the 15 Puzzle board. If the reader would like to learn more about the mechanics of the 15 Puzzle game, they are encouraged to experiment with the puzzle to learn how the tiles move around. My purpose here is to give instruction on where to put the pieces after you know how to move them around the board.</string>
+    <string name="instruction">Locate tiles 1 and 2. -Move the tiles so that the blank space is in the next position you want to move the tile to. -Move the tile into the blank space. -Repeat this process until tiles 1 and 2 are in the correct positions.</string>
+    <string name="info2">This game is continued in the sequence shown above and until a series of numbers is formed as in the example</string>
+</resources>

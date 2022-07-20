@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C6F6B453"
+    tools:context=".SplashActivity">
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/icon2" />
+    <TextView
+        android:id="@+id/puzzleName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fifteen Puzzle Game "
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/img"
+        android:layout_marginTop="16dp"/>
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginHorizontal="36dp"
+        android:layout_below="@id/puzzleName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+    <TextView
+        android:id="@+id/textV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please wait"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/progress"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"/>
+
+</RelativeLayout>
